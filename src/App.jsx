@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import Navbar from './components/NavBar';
 import About from './components/About';
 import Home from './components/Home';
 import Skills from './components/Skills';
@@ -9,6 +8,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
